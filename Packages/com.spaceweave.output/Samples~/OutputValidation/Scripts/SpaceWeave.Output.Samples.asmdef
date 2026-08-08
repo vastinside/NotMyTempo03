@@ -1,0 +1,18 @@
+{
+  "name": "SpaceWeave.Output.Samples",
+  "rootNamespace": "SpaceWeave.Output.Samples",
+  "references": [
+    "SpaceWeave.Output",
+    "Klak.Spout.Runtime",
+    "Klak.Ndi.Runtime"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

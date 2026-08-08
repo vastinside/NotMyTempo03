@@ -1,0 +1,20 @@
+{
+  "name": "SpaceWeave.Output.Editor",
+  "rootNamespace": "SpaceWeave.Output.Editor",
+  "references": [
+    "SpaceWeave.Output",
+    "Klak.Spout.Runtime",
+    "Klak.Ndi.Runtime"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

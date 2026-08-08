@@ -1,0 +1,40 @@
+{
+  "name": "com.spaceweave.output",
+  "version": "0.1.0",
+  "displayName": "SpaceWeave Output",
+  "description": "Render Equirect / EAC / Cubemap / Fisheye from a Unity camera and send to SpaceWeave via Klak Spout (and optionally NDI).",
+  "unity": "2022.3",
+  "documentationUrl": "https://github.com/sagor995/CAVE_Receiver",
+  "licensesUrl": "https://github.com/sagor995/CAVE_Receiver",
+  "keywords": [
+    "spaceweave",
+    "spout",
+    "ndi",
+    "cave",
+    "equirect",
+    "eac"
+  ],
+  "author": {
+    "name": "SpaceWeave"
+  },
+  "dependencies": {
+    "jp.keijiro.klak.spout": "2.0.6",
+    "jp.keijiro.klak.ndi": "2.1.6"
+  },
+  "scopedRegistries": [
+    {
+      "name": "Keijiro",
+      "url": "https://registry.npmjs.com",
+      "scopes": [
+        "jp.keijiro"
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "displayName": "Output Validation",
+      "description": "Minimal scene: camera + SpaceWeaveOutputManager + Spout. Set mode, note sender name, match SpaceWeave input format.",
+      "path": "Samples~/OutputValidation"
+    }
+  ]
+}
